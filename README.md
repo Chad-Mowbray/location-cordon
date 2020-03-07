@@ -1,6 +1,6 @@
 ## location-cordon
 
-An overly strict location-header restrictor.  Cleans input of CRLF characters to prevent HTTP header splitting attacks.  Uses both white/black listing.
+An overly strict location-header restrictor.  Cleans input of CRLF characters to prevent HTTP header splitting attacks.  Uses both white/black listing.  No dependencies.
 
 ## Basic Usage
 ```javascript

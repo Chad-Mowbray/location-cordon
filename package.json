@@ -1,0 +1,26 @@
+{
+  "name": "location-cordon",
+  "version": "1.0.0",
+  "description": "A CRLF location header sanitizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chad-Mowbray/location-cordon.git"
+  },
+  "keywords": [
+    "CRLF",
+    "location",
+    "header",
+    "input",
+    "sanitize"
+  ],
+  "author": "Chad Mowbray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chad-Mowbray/location-cordon/issues"
+  },
+  "homepage": "https://github.com/Chad-Mowbray/location-cordon#readme"
+}
