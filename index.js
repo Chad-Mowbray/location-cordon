@@ -16,7 +16,7 @@ module.exports.sanitizeLocationHeader = function(rawLocationHeader, whitelist) {
     const sanitizedArr = asciiLocationArr.map( char => blackListCharCodes.includes(char.charCodeAt()) ? '' : char );
     const sanitizedLocationHeader = sanitizedArr.join('');
 
-    if (!whitelistRegex.test(sanitizedLocationHeader)) {    // whitelist regex  (maybe add to an object property)
+    if (!whitelistRegex.test(sanitizedLocationHeader)) { 
         return sanitizedLocationHeader
     } else {
         return new Error('Invalid Input')
