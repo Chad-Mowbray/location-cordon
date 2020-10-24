@@ -1,7 +1,7 @@
 
-module.exports.sanitizeLocationHeader = function(rawLocationHeader, whitelist) {
+module.exports.checkLocationHeader = function(rawLocationHeader, whitelist) {
     
-    try {
+
         let whitelistRegex;
         if (whitelist) {
             whitelistRegex = new RegExp(whitelist[0], whitelist[1] || undefined)
@@ -17,13 +17,13 @@ module.exports.sanitizeLocationHeader = function(rawLocationHeader, whitelist) {
         const sanitizedArr = asciiLocationArr.map( char => blackListCharCodes.includes(char.charCodeAt()) ? '' : char );
         const sanitizedLocationHeader = sanitizedArr.join('');
 
+        console.log(sanitizedLocationHeader)
+
         if (!whitelistRegex.test(sanitizedLocationHeader)) { 
             return sanitizedLocationHeader
         } else {
-            return new Error('Invalid Input')
+            throw new Error('Invalid Input')
         }
-    } catch(error) {
-        console.error(error)
-    }
-};
 
+
+};
