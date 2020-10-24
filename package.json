@@ -4,7 +4,8 @@
   "description": "A CRLF location header sanitizer",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "install": "npm ci"
   },
   "repository": {
     "type": "git",
