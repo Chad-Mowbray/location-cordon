@@ -1,6 +1,6 @@
 {
   "name": "location-cordon",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A CRLF location header sanitizer",
   "main": "index.js",
   "scripts": {
