@@ -3,4 +3,4 @@ node_js:
     - lts/*
 script:
     - npm test 
-    - npm coverage
+    - npm run coverage
