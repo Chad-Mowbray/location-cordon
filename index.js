@@ -17,8 +17,6 @@ module.exports.checkLocationHeader = function(rawLocationHeader, whitelist) {
         const sanitizedArr = asciiLocationArr.map( char => blackListCharCodes.includes(char.charCodeAt()) ? '' : char );
         const sanitizedLocationHeader = sanitizedArr.join('');
 
-        console.log(sanitizedLocationHeader)
-
         if (!whitelistRegex.test(sanitizedLocationHeader)) { 
             return sanitizedLocationHeader
         } else {
