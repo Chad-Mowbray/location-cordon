@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1603577884683" clover="3.2.0">
-  <project timestamp="1603577884683" name="All files">
+<coverage generated="1603584337986" clover="3.2.0">
+  <project timestamp="1603584337987" name="All files">
     <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="2" elements="24" coveredelements="22" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
     <file name="index.js" path="/Users/chadm/Desktop/code/locationCordon/location-cordon/index.js">
       <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="2"/>
