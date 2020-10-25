@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/Chad-Mowbray/location-cordon.svg?branch=master)](https://travis-ci.com/Chad-Mowbray/location-cordon)
+[![Coverage Status](https://coveralls.io/repos/github/Chad-Mowbray/location-cordon/badge.svg?branch=master)](https://coveralls.io/github/Chad-Mowbray/location-cordon?branch=master)
 
 # location-cordon
 
