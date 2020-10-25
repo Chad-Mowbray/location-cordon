@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "test:coverage": "npm run test -- --coverage --watchAll=false || exit 1"
   },
   "jest": {
@@ -16,7 +17,7 @@
         "statements": 90
       }
     }
-  },  
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Chad-Mowbray/location-cordon.git"
@@ -35,6 +36,7 @@
   },
   "homepage": "https://github.com/Chad-Mowbray/location-cordon#readme",
   "devDependencies": {
+    "coveralls": "^3.1.0",
     "jest": "^26.6.1"
   }
 }
