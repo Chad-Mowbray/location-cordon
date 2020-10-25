@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage --watchAll=false || exit 0"
+    "coverage": "jest --coverage --watchAll=false || exit 0",
+    "test:coverage": "npm run test -- --coverage --watchAll=false || exit 0"
   },
   "jest": {
     "coverageThreshold": {
