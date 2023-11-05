@@ -36,7 +36,6 @@
   },
   "homepage": "https://github.com/Chad-Mowbray/location-cordon#readme",
   "devDependencies": {
-    "coveralls": "^3.1.0",
-    "jest": "^26.6.1"
+    "jest": "^29.7.0"
   }
 }
